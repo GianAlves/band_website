@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contato.css">
+    <script src="https://kit.fontawesome.com/b73b878596.js" crossorigin="anonymous"></script>
+    <title>Maroon 5</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <ul class="main-nav">
+                    <li><a href="../index.html#agendaShow">Agenda de shows</a></li>
+                    <li><a href="musicas.html#musicas">Músicas</a></li>
+                    <li><a href="integrantes.html#integrantes">Integrantes da banda</a></li>
+                    <li><a href="#">Entre em contato com a banda</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="caixa-texto-capa">
+            <h1>Maroon 5</h1>
+            <a class="btn btn-full" href="../index.html#agendaShow">Veja o show mais perto de você</a>
+            <a class="btn btn-ghost" href="outras-bandas.html#outras-bandas">Outras bandas</a>
+        </div>
+    </header>
+    <main class="conteudo-banda" id="contato">
+        <h2>Entre Em Contato Com a Banda</h2>
+        <div class="formulario-contato">
+            <form onsubmit="enviarMensagem()">
+                <fieldset>
+                    <label for="nome">Nome:</label><br>
+                    <input id="nome" type="text" required>
+                </fieldset>
+                <fieldset>
+                    <label for="email">E-mail:</label><br>
+                    <input id="email" type="email" required>
+                </fieldset>
+                <fieldset>
+                    <label for="telefone">Telefone:</label><br>
+                    <input id="telefone" type="tel">
+                </fieldset>
+                <fieldset>
+                    <label for="mensagem">Mensagem para a banda:</label><br>
+                    <textarea id="mensagem" cols="60" rows="10"></textarea>
+                </fieldset>
+                <button type="submit">Enviar</button>
+            </form>
+            <script>
+                function enviarMensagem(){
+                    alert("Mensagem enviada com sucesso!");
+                }
+            </script>
+        </div>
+        <div class="imagem-formulario">
+            <figure>
+                <img src="../img/maroon-contato.jpg" alt="">
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <ul class="footer-nav">
+            <li><a href="../index.html#agendaShow">Agenda de shows</a></li>
+            <li><a href="musicas.html#musicas">Músicas</a></li>
+            <li><a href="integrantes.html#integrantes">Integrantes da banda</a></li>
+            <li><a href="#contato">Entre em contato com a banda</a></li>
+        </ul>
+        <div>
+            <p>Copyright &copy; 2022 - Maroon 5.</p>
+        </div>
+    </footer>
+</body>
+</html>

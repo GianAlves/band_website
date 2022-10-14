@@ -1,0 +1,36 @@
+.formulario-contato {
+    margin-top: 2em;
+    width: 50%;
+    display: inline-block;
+}
+
+.formulario-contato fieldset {
+    border: 0;
+    margin-bottom: 1em;
+}
+
+.formulario-contato fieldset input, textarea {
+    margin-top: 1em;
+}
+
+.formulario-contato button {
+    margin-top: 1em;
+    padding: 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.imagem-formulario {
+    display: inline-block;
+    width: 45%;
+}
+
+.imagem-formulario figure {
+    text-align: center;
+}
+
+.imagem-formulario figure img {
+    max-width: 80%;
+    border-radius: 5px 10px 15px 20px;
+}
+

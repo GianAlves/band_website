@@ -1,0 +1,34 @@
+.integrantes {
+    margin-top: 2em;
+    width: 100%;
+}
+
+.integrantes .integrante {
+    display: inline-block;
+    width: 33%;
+    margin-bottom: 1em;
+}
+
+.integrantes .integrante a {
+    text-decoration: none;
+}
+
+.integrantes .integrante figure {
+    text-align: center;
+    filter: grayscale(70%);
+}
+
+.integrantes .integrante figure img {
+    border-radius: 5px 10px 15px 20px;
+    max-height: 300px;
+    transition: 1s all;
+}
+
+.integrantes .integrante figure:hover {
+	transform: scale(1.1);
+    filter: grayscale(10%);
+}
+
+.integrantes .integrante figure legend {
+    color: #666;
+}

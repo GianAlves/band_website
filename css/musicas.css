@@ -1,0 +1,24 @@
+.musicas {
+    margin-top: 2em;
+}
+
+.musicas .musica {
+    margin-bottom: 2em;
+}
+
+.musicas .nome-musica, .icone-spotify {
+    display: inline-block;
+    width: 40%;
+}
+
+.musicas .icone-spotify {
+    font-size: 2em;
+}
+
+.musicas .icone-spotify a, a:hover, a:visited {
+    color: #555;
+}
+
+.musicas .icone-spotify a:hover {
+    color: rgb(66, 192, 66);
+}

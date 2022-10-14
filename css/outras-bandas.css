@@ -1,0 +1,18 @@
+.outras-bandas {
+    margin-top: 2em;
+}
+
+.outras-bandas table, tr, td, th {
+    border: 1px solid #555;
+    padding: 1em;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.outras-bandas table .banda {
+    transition: 0.3s all;
+}
+
+.outras-bandas table .banda:hover {
+    background-color: #FFCC01;
+}
